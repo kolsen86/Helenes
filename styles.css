@@ -3,11 +3,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  background-color: #d6cec2;
-}
-
-* {
-  cursor: url("cursor.png"), default;
+  background-color: #131212;
 }
 
 #main-top {
@@ -16,6 +12,9 @@ body {
   background: url(https://res.cloudinary.com/dmks1qdth/image/upload/c_scale,w_1046/v1555367190/main-salon.png);
   background-size: cover;
   margin-top: -3.75%;
+  border-radius: 50px;
+  -webkit-box-shadow: 10px 5px 100px #84e4c4;
+          box-shadow: 10px 5px 100px #84e4c4;
 }
 
 #main-top p {
@@ -25,31 +24,113 @@ body {
   color: #d7db5c;
 }
 
+hr {
+  margin-bottom: 20%;
+  margin-top: 10%;
+}
+
+.hair-img {
+  height: 70vh;
+  width: 60vw;
+  background-image: url("https://res.cloudinary.com/dmks1qdth/image/upload/v1555466827/getting-haircut.jpg");
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  margin-left: 33%;
+  z-index: 9999;
+}
+
+.extensions-img {
+  height: 70vh;
+  width: 60vw;
+  background-image: url("https://res.cloudinary.com/dmks1qdth/image/upload/c_scale,h_400,w_600/v1555466783/Tape-In-Hair-Extensions.jpg");
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  margin-left: 33%;
+  z-index: 9999;
+}
+
+.beauty-img {
+  height: 70vh;
+  width: 60vw;
+  background-image: url("https://res.cloudinary.com/dmks1qdth/image/upload/c_scale,h_350,w_600/v1555466798/Oriflame-Beauty-And-Skin-Care-Products-Top-15.jpg");
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  margin-left: 33%;
+  z-index: 9999;
+}
+
+.nails-img {
+  height: 70vh;
+  width: 60vw;
+  background-image: url("https://res.cloudinary.com/dmks1qdth/image/upload/c_scale,w_600/v1555466817/nails-done.jpg");
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  margin-left: 5%;
+  z-index: 9999;
+}
+
+.tan-img {
+  height: 70vh;
+  width: 60vw;
+  background-image: url("https://res.cloudinary.com/dmks1qdth/image/upload/c_scale,h_350,w_550/v1555466768/sunless-tan.jpg");
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  margin-left: 5%;
+  z-index: 9999;
+}
+
 #services {
+  margin-top: 25%;
   height: 50vh;
   width: 100%;
+}
+
+#services p {
+  position: absolute;
+  font-size: 3.4vw;
+  z-index: 2;
+  color: white;
+}
+
+#services .right {
+  margin-top: -7%;
+  margin-left: 40%;
+}
+
+#services .left {
+  margin-top: -10%;
+  margin-left: 46%;
+}
+
+#services .right-img {
+  z-index: 2;
+  position: absolute;
+  margin-top: 3.5%;
+  margin-left: 70%;
+}
+
+#services .left-img {
+  z-index: 2;
+  position: absolute;
+  margin-top: 3.5%;
+  margin-left: 3%;
 }
 
 #services h2 {
   text-align: center;
   font-size: 5vw;
-}
-
-#services ul {
-  list-style-type: none;
-}
-
-#services ul li {
-  font-size: 4vw;
-  font-weight: 650;
-  margin-right: 8%;
-  margin-top: 1.5%;
-  padding-bottom: 1.5%;
-  text-align: center;
-}
-
-#services ul li span {
-  margin-right: 3%;
+  margin-bottom: 18%;
+  color: white;
 }
 
 #reviews {
@@ -57,18 +138,56 @@ body {
   display: grid;
   grid-column-gap: 5px;
   -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   -ms-grid-rows: 0.25fr;
-      grid-template-rows: 0.25fr;
+  grid-template-rows: 0.25fr;
       grid-template-areas: ". .";
-  margin-left: 2%;
-  margin-top: 5%;
+  margin-top: 300%;
   height: 40vh;
-  width: auto;
+  width: 100%;
 }
 
-.yelp-review {
-  height: 100%;
-  width: auto;
+#location {
+  width: 100%;
+}
+
+#location p#directions {
+  width: 45%;
+  color: white;
+  float: right;
+  margin-top: 17%;
+  font-size: 1.7vw;
+}
+
+#location p#phone {
+  width: 45%;
+  color: white;
+  float: right;
+  padding-left: 70%;
+  margin-top: -22%;
+  font-size: 1.9vw;
+}
+
+#location p#hours {
+  width: 45%;
+  color: white;
+  float: right;
+  padding-left: 70%;
+  margin-top: -9%;
+  font-size: 1.9vw;
+}
+
+#location p:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding-top: 20px;
+  border-bottom: 1px solid white;
+}
+
+iframe {
+  margin-top: 15%;
+  margin-left: 3%;
 }
 /*# sourceMappingURL=styles.css.map */
