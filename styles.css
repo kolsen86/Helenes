@@ -1,9 +1,51 @@
 body {
   height: auto;
   width: 100%;
+  min-height: 100%;
   margin: 0;
   padding: 0;
   background-color: #131212;
+  padding-bottom: 5%;
+}
+
+.nav-fixed {
+  position: fixed;
+  top: 3em;
+}
+
+#nav {
+  width: 100%;
+  background: #ce6464;
+  height: auto;
+  top: 0.05%;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 99999;
+}
+
+#nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2vw;
+}
+
+#nav li {
+  padding: 0.75%;
+}
+
+#nav a {
+  color: #72f872;
+}
+
+#nav a:hover {
+  color: #a85507;
 }
 
 #main-top {
@@ -132,6 +174,13 @@ hr {
   margin-left: 3%;
 }
 
+#services .serviceDesc {
+  font-size: 2.3vw;
+  margin-left: 15%;
+  width: 70%;
+  margin-bottom: 3%;
+}
+
 #services h2 {
   text-align: center;
   font-size: 5vw;
@@ -202,9 +251,41 @@ iframe {
   margin-left: 3%;
 }
 
-#PSBG {
-  background-image: url("https://res.cloudinary.com/dmks1qdth/image/upload/v1555714657/helenesBG.png");
-  background-position: center;
-  background-size: cover;
+#shop {
+  height: 93vh;
+  width: 59vw;
+  margin-top: 19.5%;
+  margin-left: 23.5%;
+  z-index: 9999;
+  position: absolute;
+  border-radius: 35%;
+  border: 2.5px solid #146aa3;
+  -webkit-box-shadow: 25px 25px 40px #66a355, -25px -25px 40px #66a355;
+          box-shadow: 25px 25px 40px #66a355, -25px -25px 40px #66a355;
+}
+
+footer {
+  margin-top: 80%;
+  width: 100%;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+  font-size: 1.2vw;
+}
+
+footer #ko-coding {
+  font-size: 0.95vw;
+}
+
+footer span {
+  color: #0077ff;
+}
+
+footer h3 {
+  text-align: center;
+  font-size: 3vw;
+  color: #3ae93a;
 }
 /*# sourceMappingURL=styles.css.map */

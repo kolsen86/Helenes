@@ -1,11 +1,46 @@
 body {
   height: auto;
   width: 100%;
+  min-height: 100%;
   margin: 0;
   padding: 0;
   background-color: #131212;
+  padding-bottom: 5%;
 }
 
+.nav-fixed {
+  position: fixed;
+  top: 3em;
+}
+
+#nav {
+  width: 100%;
+  background: rgb(206, 100, 100);
+  height: auto;
+  top: 0.05%;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 99999;
+
+    ul {    
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      font-size: 2vw;
+    }
+
+    li {
+      padding: 0.75%;
+    }
+
+    a {
+      color: rgb(114, 248, 114);
+    }
+
+    a:hover {
+      color: rgb(168, 85, 7);
+    }
+}
 
 #main-top {
   height: 85vh;
@@ -136,6 +171,13 @@ hr {
       margin-left: 3%;
      
     }
+
+    .serviceDesc {
+      font-size: 2.3vw;
+      margin-left: 15%;
+      width: 70%;
+      margin-bottom: 3%;
+    }
 }
 
 #services h2 {
@@ -212,11 +254,45 @@ iframe {
   margin-left: 3%;
 }
 
-#PSBG {
-background-image: url("https://res.cloudinary.com/dmks1qdth/image/upload/v1555714657/helenesBG.png");
-background-position: center;
-background-size: cover;
+
+
+#shop {
+  height: 93vh;
+  width: 59vw;
+  margin-top: 19.5%;
+  margin-left: 23.5%;
+  z-index: 9999;
+  position: absolute;
+  border-radius: 35%;
+  border: 2.5px solid rgb(20, 106, 163);
+  box-shadow: 25px 25px 40px #66a355,
+  -25px -25px 40px #66a355;
 }
+
+    footer {
+      margin-top: 80%;
+      width: 100%;
+
+        p {
+          text-align: center;
+          color: white;
+          font-size: 1.2vw;
+        }
+
+        #ko-coding {
+          font-size: 0.95vw;
+        }
+
+        span {
+          color: rgb(0, 119, 255);
+        }
+
+        h3 {
+          text-align: center;
+          font-size: 3vw;
+          color: rgb(58, 233, 58);
+        }
+    }
 
 
 
