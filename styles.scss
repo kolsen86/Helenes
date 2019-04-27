@@ -8,19 +8,21 @@ body {
   padding-bottom: 5%;
 }
 
-.nav-fixed {
-  position: fixed;
-  top: 3em;
+#body-wrap {
+  margin: 0 auto;
+  width: 99.99%;
+  height: auto;
 }
 
 #nav {
   width: 100%;
-  background: rgb(206, 100, 100);
+  background: rgb(58, 54, 54);
   height: auto;
-  top: 0.05%;
+  top: 0.025%;
   position: -webkit-sticky;
   position: sticky;
   z-index: 99999;
+  opacity: 0.97;
 
     ul {    
       display: flex;
@@ -30,11 +32,12 @@ body {
     }
 
     li {
-      padding: 0.75%;
+      padding: 0.75% 0.25%;
     }
 
     a {
-      color: rgb(114, 248, 114);
+      color: rgb(241, 229, 223);/*rgb(143, 236, 224)*/
+      text-shadow: 0.5px 0.5px 0.45px rgb(0, 0, 0);
     }
 
     a:hover {
@@ -177,6 +180,7 @@ hr {
       margin-left: 15%;
       width: 70%;
       margin-bottom: 3%;
+      padding-bottom: 3%;
     }
 }
 
@@ -195,13 +199,19 @@ hr {
   display: grid;
   grid-column-gap: 5px;
   -ms-grid-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 0.75fr 0.75fr;
   -ms-grid-rows: 0.25fr;
   grid-template-rows: 0.25fr;
   grid-template-areas: ". .";
   margin-top: 300%;
-  height: 40vh;
-  width: 100%;
+  height: 400px;
+  width: 500px;
+}
+
+.yelp-review {
+  margin: 1%;
+  height: 100%;
+  width: 320px;
 }
 
 #location {
@@ -257,42 +267,126 @@ iframe {
 
 
 #shop {
-  height: 93vh;
-  width: 59vw;
-  margin-top: 19.5%;
-  margin-left: 23.5%;
+  height: 98vh;
+  width: 69vw;
+  margin-top: 320.5%;
+  margin-left: 14.5%;
   z-index: 9999;
-  position: absolute;
   border-radius: 35%;
   border: 2.5px solid rgb(20, 106, 163);
   box-shadow: 25px 25px 40px #66a355,
   -25px -25px 40px #66a355;
 }
 
-    footer {
-      margin-top: 80%;
-      width: 100%;
+#shop-container {
+  margin-top: 5%;
+  padding-top: 5%;
+}
 
-        p {
-          text-align: center;
-          color: white;
-          font-size: 1.2vw;
-        }
+footer {
+  margin-top: 20%;
+  width: 100%;
 
-        #ko-coding {
-          font-size: 0.95vw;
-        }
-
-        span {
-          color: rgb(0, 119, 255);
-        }
-
-        h3 {
-          text-align: center;
-          font-size: 3vw;
-          color: rgb(58, 233, 58);
-        }
+    p {
+      text-align: center;
+      color: white;
+      font-size: 1.2vw;
     }
+
+    #ko-coding {
+      font-size: 0.95vw;
+    }
+
+    span {
+      color: rgb(0, 119, 255);
+    }
+
+    h3 {
+      text-align: center;
+      font-size: 3vw;
+      color: rgb(58, 233, 58);
+    }
+  }
+
+  @media screen and (max-width: 1325px) {
+    #nav ul {
+      font-size: 2.2vw;
+    }
+
+    #shop-container {
+      margin-top: 1%;
+    }
+
+    .right-img, .left-img {
+      height: 330px;
+      width: 330px;
+      padding-top: 0%;
+    }
+
+    #services .right-img {
+      margin-left: 67%;
+    }
+
+    .hair-img, .nails-img, .extensions-img, .tan-img, .beauty-img {
+      height: 60vh;
+      width: 50vw;
+      background-size: 58%;
+    }
+
+    .hair-img, .extensions-img, .beauty-img {
+      margin-left: 40%;
+    }
+
+    .nails-img, .tan-img {
+      margin-left: 8.25%;
+    }
+
+    img.left-img {
+      padding-left: 5%;
+    }
+
+    #location p#phone {
+      margin-top: -26%;
+    }
+
+    #location p#hours {
+      margin-top: -14%;
+    }
+  }
+
+  @media screen and (max-width: 1150px) {
+    #nav ul {
+      font-size: 2.4vw;
+    }
+
+    #location p#phone {
+      margin-top: -33%;
+    }
+
+    #location p#hours {
+      margin-top: -19%;
+    }
+
+    #location {
+
+      p#hours {
+        font-size: 2.3vw;
+      }
+
+      p#directions {
+        font-size: 2vw;
+      }
+
+      p#phone {
+        font-size: 2.05vw;
+        width: 47%;
+      }
+
+      #closed {
+        margin-left: 30%;
+      }
+    }
+  }
 
 
 
