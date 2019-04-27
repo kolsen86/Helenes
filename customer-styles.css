@@ -1,0 +1,93 @@
+body {
+  height: auto;
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #131212;
+  padding-bottom: 5%;
+}
+
+#customer-wrap {
+  width: 90%;
+  height: auto;
+  background-color: white;
+  margin-left: 5%;
+  margin-top: 2%;
+  border-radius: 25px;
+  padding-bottom: 3%;
+  border: 1.5px solid #84da7c;
+}
+
+header {
+  padding: 3% 0;
+  border-radius: 25px;
+}
+
+header h1 {
+  font-size: 4vw;
+  text-align: center;
+}
+
+header p {
+  font-size: 1.4vw;
+  font-weight: 600;
+  text-align: center;
+}
+
+#work-title {
+  text-align: center;
+  font-size: 3vw;
+  padding: 2% 0;
+  border-bottom: 5px solid #84da7c;
+  width: 75%;
+  margin-left: 12.5%;
+}
+
+#work-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 90%;
+  margin-left: 5%;
+}
+
+#work-wrap img {
+  margin-bottom: 0.5%;
+  -webkit-box-shadow: 2px 2px 8px blue;
+          box-shadow: 2px 2px 8px blue;
+}
+
+footer {
+  margin-top: 20%;
+  width: 100%;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+  font-size: 1.2vw;
+}
+
+footer #ko-coding {
+  font-size: 0.95vw;
+}
+
+footer span {
+  color: #0077ff;
+}
+
+footer h3 {
+  text-align: center;
+  font-size: 3vw;
+  color: #3ae93a;
+}
+/*# sourceMappingURL=customer-styles.css.map */
