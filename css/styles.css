@@ -52,6 +52,10 @@ body {
   color: #a85507;
 }
 
+#services-nav {
+  margin-top: 21.5%;
+}
+
 #main-top {
   height: 85vh;
   width: 100%;
@@ -71,6 +75,42 @@ body {
   margin-left: 33.5%;
   font-size: 4.75vw;
   color: #d7db5c;
+}
+
+#appointment {
+  position: relative;
+}
+
+#appointment #appointment-title {
+  text-align: center;
+  font-size: 3.3vw;
+}
+
+#appointment #appointment-title a {
+  color: #4ccc72;
+}
+
+#appointment #point-right {
+  position: absolute;
+  margin-left: 26%;
+}
+
+#appointment #point-left {
+  position: absolute;
+  margin-left: 62%;
+}
+
+#appointment button {
+  margin-left: 42.5%;
+  margin-top: 3%;
+  width: 15%;
+  padding: 1.5% 1% 1.5% 1.5%;
+  font-size: 1.5vw;
+  border-radius: 25px;
+}
+
+#appointment button #apt-button {
+  padding: 1.6% 1.1% 1.6% 1.6%;
 }
 
 hr {

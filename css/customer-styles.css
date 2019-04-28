@@ -8,6 +8,45 @@ body {
   padding-bottom: 5%;
 }
 
+#nav {
+  width: 100%;
+  background: #3a3636;
+  height: auto;
+  top: 0;
+  margin-top: -3%;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 99999;
+  opacity: 0.97;
+}
+
+#nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2vw;
+}
+
+#nav li {
+  padding: 0.75% 0.25%;
+}
+
+#nav a {
+  color: #f1e5df;
+  /*rgb(143, 236, 224)*/
+  text-shadow: 0.5px 0.5px 0.45px black;
+}
+
+#nav a:hover {
+  color: #a85507;
+}
+
 #customer-wrap {
   width: 90%;
   height: auto;
