@@ -84,10 +84,8 @@ body {
 #appointment #appointment-title {
   text-align: center;
   font-size: 3.3vw;
-}
-
-#appointment #appointment-title a {
-  color: #4ccc72;
+  color: #eeff01;
+  text-shadow: 1.6px 1px 1px #dd8181;
 }
 
 #appointment #point-right {
@@ -100,17 +98,31 @@ body {
   margin-left: 62%;
 }
 
-#appointment button {
-  margin-left: 42.5%;
-  margin-top: 3%;
-  width: 15%;
-  padding: 1.5% 1% 1.5% 1.5%;
-  font-size: 1.5vw;
-  border-radius: 25px;
+#appointment #apt-button {
+  height: 100%;
+  width: 100%;
+  padding: 1.6% 1.3% 1.6% 1.6%;
+  color: #5a0c69;
 }
 
-#appointment button #apt-button {
-  padding: 1.6% 1.1% 1.6% 1.6%;
+#appointment #apt-button div {
+  height: 75px;
+  width: 220px;
+  background: #3accd6;
+  margin-left: 41%;
+  margin-top: 3%;
+  display: inline-block;
+  font-size: 2.2vw;
+  border-radius: 50px;
+  border: 2.5px inset #a6ff00;
+  -webkit-box-shadow: 2px 2.2px 2px #008cff;
+          box-shadow: 2px 2.2px 2px #008cff;
+}
+
+#appointment #apt-button div p {
+  margin-top: 8%;
+  margin-left: 8%;
+  text-shadow: 1px -1px 0.5px black;
 }
 
 hr {
