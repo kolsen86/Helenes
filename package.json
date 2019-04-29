@@ -1,0 +1,22 @@
+{
+  "name": "helenes",
+  "version": "1.0.0",
+  "description": "A website for Helene's Magic Mirror Full Service Salon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kolsen86/Helenes.git"
+  },
+  "author": "Kenneth Olsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kolsen86/Helenes/issues"
+  },
+  "homepage": "https://github.com/kolsen86/Helenes#readme",
+  "dependencies": {
+    "twilio": "^3.30.2"
+  }
+}
