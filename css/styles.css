@@ -309,6 +309,10 @@ hr {
   border-bottom: 1px solid white;
 }
 
+#location #map {
+  border-radius: 25px;
+}
+
 iframe {
   margin-top: 15%;
   margin-left: 3%;
