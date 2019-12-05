@@ -6,9 +6,11 @@
   <title>Helene's Magic Mirror</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link
     href="https://fonts.googleapis.com/css?family=Bitter|Calligraffitti|Cinzel+Decorative|Dancing+Script|Pacifico|Playfair+Display"
     rel="stylesheet">
+
 
 </head>
 
@@ -106,7 +108,7 @@
 
     <span>
 
-      <img class="left-img" style="filter:contrast(0%);"
+      <img data-aos="fade-down-left" class="left-img" style="filter:contrast(0%);"
         src="https://res.cloudinary.com/dmks1qdth/image/upload/c_scale,h_400,w_400/v1555457093/scissors.png">
     
       <p class="right">
@@ -115,7 +117,7 @@
 
     </span>
     
-    <section class="hair-img"></section>
+    <section data-aos="zoom-in-left" class="hair-img"></section>
     
     <p class="serviceDesc">
       Get the Hair-Do you love from one of our experienced Hair Stylists.
@@ -125,7 +127,7 @@
 
     <span>
 
-      <img class="right-img" style="filter:contrast(0%);"
+      <img data-aos="fade-down-right" class="right-img" style="filter:contrast(0%);"
         src="https://res.cloudinary.com/dmks1qdth/image/upload/c_scale,w_400/v1555545730/nailsdid.png">
       </span>
 
@@ -133,7 +135,7 @@
       Nail Care
     </p>
 
-    <section class="nails-img"></section>
+    <section data-aos="zoom-in-right" class="nails-img"></section>
     
     <p class="serviceDesc">
       Our Trained and Certified Nail Technicians will bring your nails as close to Perfection as
@@ -144,7 +146,7 @@
 
     <span>
       
-      <img class="left-img" style="filter:contrast(0%);"
+      <img data-aos="fade-down-left" class="left-img" style="filter:contrast(0%);"
         src="https://res.cloudinary.com/dmks1qdth/image/upload/c_scale,h_400/v1555458737/extensions.png">
       
       </span>
@@ -153,7 +155,7 @@
       Hair Extensions
     </p>
 
-    <section class="extensions-img"></section>
+    <section data-aos="fade-down-left" class="extensions-img"></section>
     
     <p class="serviceDesc">
       No Hair?? No Problem!! Come in and get some of our high quality Hair Extensions (Taken from
@@ -164,7 +166,7 @@
 
     <span>
       
-      <img class="right-img" style="filter:contrast(0%);"
+      <img data-aos="fade-down-right" class="right-img" style="filter:contrast(0%);"
         src="https://res.cloudinary.com/dmks1qdth/image/upload/a_hflip,c_scale,h_400/a_0/v1555458891/tan.png">
       
       </span>
@@ -173,7 +175,7 @@
       Sunless Tanning
     </p>
 
-    <section class="tan-img"></section>
+    <section data-aos="zoom-in-right" class="tan-img"></section>
     
     <p class="serviceDesc">
       When Global Warming forces us all under ground, you will be the bell of the ball with our
@@ -184,7 +186,7 @@
 
     <span>
       
-      <img class="left-img" style="filter:contrast(0%);"
+      <img data-aos="fade-down-left" class="left-img" style="filter:contrast(0%);"
         src="https://res.cloudinary.com/dmks1qdth/image/upload/c_scale,w_400/v1555546758/beauty-care-removebg.png">
       
       </span>
@@ -192,7 +194,7 @@
     <p class="right">
       Beauty Care Products
     </p>
-    <section class="beauty-img"></section>
+    <section data-aos="fade-down-left" class="beauty-img"></section>
     
     <p class="serviceDesc">
       If all the stuff above didn't help your ugly butt, we carry an assortment of Beauty Products,
@@ -227,7 +229,17 @@
   </div>
 
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      easing: 'ease-in-out-quad',
+   duration: 750,
+   delay: 100,
+   once: false
+    });
+  </script>
   <script src="index.js"></script>
+
 
 </body>
 

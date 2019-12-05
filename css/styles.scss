@@ -6,12 +6,14 @@ body {
   padding: 0;
   background-color: #131212;
   padding-bottom: 5%;
+  
 }
 
 #body-wrap {
   margin: 0 auto;
   width: 99.99%;
   height: auto;
+  scrollbar-color: blue green;
 }
 
 #nav {
@@ -132,6 +134,7 @@ hr {
   background-size: 70%;
   margin-left: 33%;
   z-index: 9999;
+  border-radius: 25px;
 }
 
 .extensions-img {
@@ -144,6 +147,7 @@ hr {
   background-size: 70%;
   margin-left: 33%;
   z-index: 9999;
+  border-radius: 25px;
 }
 
 .beauty-img {
@@ -156,6 +160,7 @@ hr {
   background-size: 70%;
   margin-left: 33%;
   z-index: 9999;
+  border-radius: 25px;
 }
 
 .nails-img {
@@ -168,6 +173,7 @@ hr {
   background-size: 70%;
   margin-left: 5%;
   z-index: 9999;
+  border-radius: 25px;
 }
 
 .tan-img {
@@ -180,6 +186,7 @@ hr {
   background-size: 70%;
   margin-left: 5%;
   z-index: 9999;
+  border-radius: 25px;
 }
 
 #services {
@@ -214,7 +221,7 @@ hr {
       position: absolute;
       margin-top: 3.5%;
       margin-left: 70%;
-      
+      ;
     }
 
     .left-img {
@@ -363,6 +370,27 @@ footer {
       color: rgb(58, 233, 58);
     }
   }
+
+  
+
+
+
+
+
+
+
+
+  //  Media Queries
+
+
+
+
+
+
+
+
+
+
 
   @media screen and (max-width: 1325px) {
     #nav ul {

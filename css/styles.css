@@ -12,6 +12,7 @@ body {
   margin: 0 auto;
   width: 99.99%;
   height: auto;
+  scrollbar-color: blue green;
 }
 
 #nav {
@@ -140,6 +141,7 @@ hr {
   background-size: 70%;
   margin-left: 33%;
   z-index: 9999;
+  border-radius: 25px;
 }
 
 .extensions-img {
@@ -152,6 +154,7 @@ hr {
   background-size: 70%;
   margin-left: 33%;
   z-index: 9999;
+  border-radius: 25px;
 }
 
 .beauty-img {
@@ -164,6 +167,7 @@ hr {
   background-size: 70%;
   margin-left: 33%;
   z-index: 9999;
+  border-radius: 25px;
 }
 
 .nails-img {
@@ -176,6 +180,7 @@ hr {
   background-size: 70%;
   margin-left: 5%;
   z-index: 9999;
+  border-radius: 25px;
 }
 
 .tan-img {
@@ -188,6 +193,7 @@ hr {
   background-size: 70%;
   margin-left: 5%;
   z-index: 9999;
+  border-radius: 25px;
 }
 
 #services {
